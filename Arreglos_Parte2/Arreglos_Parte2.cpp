@@ -4,7 +4,7 @@ const int TAM = 10;
 
 void IngresarNumeros(int arreglo[], int tam) {
 	for (int i = 0; i < tam; i++) {
-		cout << "Escribe un numero para la posicion " << i + 1 << endl;
+		cout << endl << "Escribe un numero para la posicion " << i + 1 << endl;
 		cin >> arreglo[i];
 	}
 }
@@ -71,12 +71,12 @@ int main()
 
 	IngresarNumeros(numeros, TAM);
 
-	cout << endl << "La suma total de los numeros es:" << Suma(numeros, TAM) << endl;
-	cout << endl << "El promedio de los numeros es:" << Promedio(numeros, TAM) << endl;
-	cout << endl << "El valor maximo es:" << Max(numeros, TAM) << endl;
-	cout << endl << "El valor minimo es:"<< Min(numeros, TAM) << endl;
-	cout << endl << "La cantidad de numeros pares es:" << Pares(numeros, TAM) << endl;
-	cout << endl << "La cantidad de numeros impares es:" << Impares(numeros, TAM) << endl;
+	cout << endl << "La suma total de los numeros es: " << Suma(numeros, TAM) << endl;
+	cout << endl << "El promedio de los numeros es: " << Promedio(numeros, TAM) << endl;
+	cout << endl << "El valor maximo es: " << Max(numeros, TAM) << endl;
+	cout << endl << "El valor minimo es: "<< Min(numeros, TAM) << endl;
+	cout << endl << "La cantidad de numeros pares es: " << Pares(numeros, TAM) << endl;
+	cout << endl << "La cantidad de numeros impares es:	" << Impares(numeros, TAM) << endl;
 
 	return 0;
 }
